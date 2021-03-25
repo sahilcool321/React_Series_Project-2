@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const fname = "Sahil";
-const lname = "Sharma";
+
+const currentdate = new Date().toLocaleDateString();
+
+const datetime =   new Date().toLocaleTimeString();
 
 ReactDOM.render(
   <>
-   <h1>{`My name is ${fname} ${lname}`}</h1>
-   <p>my lucky number is {Math.random()}</p>
+  <h1>Hello, My name is Sahil</h1>
+   <p>{`Today date is ${currentdate}`}</p>
+   <p>Current Time is {datetime}</p>
   </>,
 document.getElementById("root")
 );
