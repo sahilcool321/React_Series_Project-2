@@ -1,3 +1,6 @@
+Show Current Date and Current Time
+![Screenshot (5)](https://user-images.githubusercontent.com/60172772/112724180-07fe9f00-8f38-11eb-93e1-e664f5b1a280.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
